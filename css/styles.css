@@ -1,0 +1,67 @@
+/* global font-family */
+* {
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+/* spacing */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px groove lightgrey;
+  box-shadow: 10px 10px 8px #888;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+  background: lightgrey;
+}
+
+thead th:nth-child(2) {
+  width: 50%;
+}
+
+thead th:nth-child(3) {
+  width: 20%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+/* typography */
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+thead {
+  color: white;
+  /* text-shadow: 1px 1px 1px grey; */
+  background: crimson;
+}
+
+/* specific styles */
+
+/* thead th {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  background: crimson;
+} */
+
+.first-column {
+
+}
