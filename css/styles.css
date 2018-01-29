@@ -1,7 +1,6 @@
 /* global font-family */
 * {
     font-family: sans-serif;
-    font-weight: 300;
 }
 
 /* spacing */
@@ -16,12 +15,12 @@ table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  box-shadow: 10px 10px 8px #888;
+  box-shadow: 8px 30px 8px 5px #eeeeee;
 
 }
 
 caption {
-    display:table-caption;
+    display: table-caption;
     caption-side: top;
     text-align: left;
     font-size: 36px;
@@ -47,21 +46,24 @@ thead th:nth-child(3) {
 }
 
 th:nth-child(1),
-td:nth-child(1)
- {
+td:nth-child(1) {
      text-align: left;
 }
 
 th:nth-child(2),
 th:nth-child(3),
 td:nth-child(2),
-td:nth-child(3)
- {
+td:nth-child(3) {
      text-align: right;
 }
 
 th, td {
   padding: 20px;
+
+}
+
+tr + tr {
+    border-top: 1px solid lightgrey;
 
 }
 
