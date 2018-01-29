@@ -6,11 +6,16 @@
 
 /* spacing */
 
+header {
+    height: 100px;
+    margin: 50px;
+
+}
+
 table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 3px groove lightgrey;
   box-shadow: 10px 10px 8px #888;
 
 }
@@ -21,7 +26,8 @@ caption {
     text-align: left;
     font-size: 36px;
     font-weight: 300;
-    color: red;
+    color: #c62828;
+    margin: 2px;
 
 }
 
@@ -38,6 +44,20 @@ thead th:nth-child(2) {
 thead th:nth-child(3) {
   width: 30%;
 
+}
+
+th:nth-child(1),
+td:nth-child(1)
+ {
+     text-align: left;
+}
+
+th:nth-child(2),
+th:nth-child(3),
+td:nth-child(2),
+td:nth-child(3)
+ {
+     text-align: right;
 }
 
 th, td {
@@ -75,7 +95,7 @@ tfoot th {
 thead {
   color: white;
   /* text-shadow: 1px 1px 1px grey; */
-  background: crimson;
+  background: #c62828;
 
 }
 
